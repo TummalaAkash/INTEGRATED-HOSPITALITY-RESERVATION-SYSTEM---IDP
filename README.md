@@ -5,7 +5,22 @@
   - Guest login to view bookings
   - Admin dashboard for staff management
   - Reduces manual processes, improves service quality
-
+  - Chatbot makes you more convenient to about your resort details.
+# Installation
+1. Install the XAMPP control panel and setup the sql database.
+2. Open your browser and navigate to,
+   - User page -- http://localhost/Hotel/
+   - Admin page -- http://localhost/Hotel/admin/index.php
+3. To Run the chatbot which was in the project the following commands need to be Run in the Terminal,
+   - cd .\chatbot\
+   - cd .\chatbot\
+   - cd .\bot\
+   - cd .\bot_model\
+   - python train.py
+   - cd ..
+   - cd ..
+   - python manage.py runserver
+   
 # Table of Contents
 1. Introduction
 2. System Analysis
@@ -44,14 +59,6 @@
 3. **System Objectives**:
    - Improve control and performance, save costs, and enhance guest experience.
 
-## Software and Hardware Requirements
-- **Software**:
-  - OS: Windows 7 or above
-  - Database: MySQL
-  - Languages & Tools: HTML, CSS, JavaScript, PHP, Django (for chatbot)
-- **Hardware**:
-  - Processor: Intel Core i5 (4th Gen) or above
-  - RAM: 2GB or more recommended
 
 # Existing vs Proposed System
 1. **Separate Login for Staff & Guests**.
@@ -77,4 +84,3 @@
 ## Database Design
 1. Designed using MySQL with tables for managing guests, rooms, inventory, and booking history.
 2. Relationship diagrams (class diagram) ensure data integrity and streamline queries.
-
