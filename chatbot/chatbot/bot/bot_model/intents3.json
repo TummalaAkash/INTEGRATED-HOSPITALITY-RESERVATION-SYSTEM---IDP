@@ -1,0 +1,258 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": ["Hey!", "Hello!", "Hi there!", "Hi, how can I help?"]
+    },
+    {
+      "tag": "offer",
+      "patterns": [
+        "Do you have any discounts?",
+        "Any promotions going on?",
+        "Can I get a better price?",
+        "Is there a special deal for booking online?",
+        "Any ways to save on this booking?"
+      ],
+      "responses": [
+        "Yes, sometimes.",
+        "It depends, let me check.",
+        "I’ll check for you.",
+        "There might be deals online.",
+        "Let me see for you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That’s helpful", "Thanks a lot!"],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "No problem!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with PayPal?",
+        "Is it cash only?"
+      ],
+      "responses": [
+        "Yes, we accept cards and PayPal.",
+        "We accept Mastercard and PayPal.",
+        "Yes, PayPal is fine.",
+        "No, we take cards too."
+      ]
+    },
+    {
+      "tag": "checkinout",
+      "patterns": [
+        "What time can I check in and out?",
+        "When is check-in and check-out?",
+        "What are your check-in and check-out times?",
+        "Can you tell me the check-in and check-out policy?"
+      ],
+      "responses": [
+        "Check-in at 3 PM, check-out by 11 AM.",
+        "Check-in is 3 PM, check-out 11 AM.",
+        "3 PM for check-in, 11 AM for check-out.",
+        "Check-in at 3, check-out at 11."
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Is parking available?",
+        "Do you have parking?",
+        "Can I park my car there?",
+        "Is parking included?"
+      ],
+      "responses": [
+        "Yes, we have parking.",
+        "Yes, parking is available.",
+        "Yes, you can park here.",
+        "Yes, parking is included."
+      ]
+    },
+    {
+      "tag": "pet",
+      "patterns": [
+        "Are pets allowed?",
+        "Can I bring my pet?",
+        "Is the hotel pet-friendly?",
+        "Do you allow pets?",
+        "Are there pet accommodations?"
+      ],
+      "responses": [
+        "Yes, with some restrictions.",
+        "Yes, pets are allowed.",
+        "Yes, we are pet-friendly.",
+        "Yes, but check our policy.",
+        "Yes, we allow pets."
+      ]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "What COVID-19 safety measures are in place?",
+        "How is the hotel handling COVID-19?",
+        "What precautions are you taking for COVID-19?"
+      ],
+      "responses": [
+        "We follow COVID-19 guidelines.",
+        "We have safety measures in place.",
+        "We are following all precautions."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "How can I connect to the free Wi-Fi?",
+        "How do I access the complimentary Wi-Fi?",
+        "Can you help me with connecting to the Wi-Fi?"
+      ],
+      "responses": [
+        "Select the hotel’s Wi-Fi and follow the steps.",
+        "Just choose our network and connect.",
+        "Connect to our Wi-Fi by selecting the network."
+      ]
+    },
+    {
+      "tag": "gym",
+      "patterns": [
+        "Is there a gym?",
+        "Does the hotel have a fitness center?",
+        "Can I work out at the hotel?",
+        "Are there exercise facilities?"
+      ],
+      "responses": [
+        "Yes, we have a gym.",
+        "Yes, there’s a fitness center.",
+        "Yes, you can use the gym.",
+        "Yes, we offer a gym."
+      ]
+    },
+    {
+      "tag": "room_types",
+      "patterns": [
+        "What types of rooms do you have?",
+        "Do you have suites available?",
+        "Can I book a single or double room?",
+        "What kind of rooms are offered?",
+        "Do you have family rooms?"
+      ],
+      "responses": [
+        "We offer single, double, and family rooms.",
+        "Yes, we have suites and family rooms.",
+        "You can choose from single, double, or suite options.",
+        "We provide various room types including suites."
+      ]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [
+        "What amenities are available?",
+        "Do you have a pool?",
+        "Is there a spa or wellness center?",
+        "What facilities does the hotel offer?",
+        "Do you have room service?"
+      ],
+      "responses": [
+        "We have a pool, spa, and room service available.",
+        "Our amenities include a pool, fitness center, and spa.",
+        "Yes, we offer room service and other facilities.",
+        "We provide a variety of amenities including wellness services."
+      ]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": [
+        "Is there a restaurant on site?",
+        "Do you serve breakfast?",
+        "Is breakfast included?",
+        "Do you have dining options?",
+        "Are meals provided at the hotel?"
+      ],
+      "responses": [
+        "Yes, we have an on-site restaurant and serve breakfast.",
+        "Breakfast is included with certain room packages.",
+        "We offer dining options and room service.",
+        "Our restaurant is open for breakfast, lunch, and dinner."
+      ]
+    },
+    {
+      "tag": "cancellation_policy",
+      "patterns": [
+        "What is your cancellation policy?",
+        "Can I cancel my booking?",
+        "Is there a fee for cancellation?",
+        "How do I cancel a reservation?",
+        "What's the process to cancel my stay?"
+      ],
+      "responses": [
+        "You can cancel up to 24 hours before your stay without a fee.",
+        "Our cancellation policy allows for free cancellations 24 hours before check-in.",
+        "Please check your booking details for specific cancellation terms.",
+        "You can cancel by contacting us directly or through our website."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the hotel located?",
+        "Can you give me directions to the hotel?",
+        "What’s the nearest landmark?",
+        "Is the hotel near the city center?",
+        "How far is the hotel from the airport?"
+      ],
+      "responses": [
+        "The hotel is located near the city center, just 10 minutes from the airport.",
+        "We are close to major landmarks and the city center.",
+        "Our location is convenient for both business and leisure travelers.",
+        "You can find us near [specific landmark]."
+      ]
+    },
+    {
+      "tag": "booking_changes",
+      "patterns": [
+        "Can I change my booking?",
+        "How do I modify my reservation?",
+        "Can I extend my stay?",
+        "Can I change the dates of my stay?",
+        "What’s the process to adjust my booking?"
+      ],
+      "responses": [
+        "Yes, you can change your booking through our website or by contacting us.",
+        "You can modify your reservation up to 24 hours before check-in.",
+        "Feel free to contact us to extend your stay or adjust dates.",
+        "We allow changes based on availability. Please let us know in advance."
+      ]
+    },
+    {
+      "tag": "laundry_service",
+      "patterns": [
+        "Do you offer laundry services?",
+        "Is there a laundry facility at the hotel?",
+        "Can I get my clothes washed?",
+        "Do you provide dry cleaning?",
+        "Is laundry service available?"
+      ],
+      "responses": [
+        "Yes, we offer laundry and dry cleaning services.",
+        "Laundry facilities are available for our guests.",
+        "You can request laundry or dry cleaning at the front desk.",
+        "We provide laundry services for a fee."
+      ]
+    }
+  ]
+}
